@@ -1,0 +1,20 @@
+#screen{
+
+    width: 478px;
+    height: 325px;
+    border: solid 5px;
+    margin-left: 115px;
+
+}
+.but{
+    margin-top: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.hed{
+    margin-left: 278px;
+}
+.button{
+    margin-left: 152px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hello.css">
+</head>
+
+<body>
+   <h1 class="hed">SCREEN</h1>
+    <div id="screen">
+
+    </div>
+    <div class="button">
+    <button class="but" onclick="color('red')">Red</button>
+    <button class="but"onclick="color('green')">Green</button>
+    <button class="but"onclick="color('orange')">Orange</button>
+    <button class="but"onclick="color('yellow')">Yello</button>
+    <button class="but"onclick="color('blue')">Blue</button>
+    <button class="but"onclick="color('brown')">Brown</button>
+    </div>
+
+    <script>
+        function color(col)
+        {
+            document.getElementById("screen").style.background=col
+
+
+        }
+        let text=("clik the button");
+        alert(text);
+
+
+    </script>
+
+
+</body>
+</html>
